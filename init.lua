@@ -17,7 +17,7 @@ end
 armor:register_armor("nyan_armor:helmet_rainbow", {
 	description = "Nyan Helmet",
 	inventory_image = "nyan_armor_inv_helmet_rainbow.png",
-	groups = {armor_head=1, armor_heal=12, armor_use=100},
+	groups = {armor_head=1, armor_heal=12, physics_gravity=-0.15, physics_speed=0.15, physics_jump=0.15, armor_use=150},
 	armor_groups = {fleshy=15},
 	damage_groups = {cracky=2, snappy=1, level=3},
 })
@@ -25,7 +25,7 @@ armor:register_armor("nyan_armor:helmet_rainbow", {
 armor:register_armor("nyan_armor:chestplate_rainbow", {
 	description = "Nyan Chestplate",
 	inventory_image = "nyan_armor_inv_chestplate_rainbow.png",
-	groups = {armor_torso=1, armor_heal=12, armor_use=100},
+	groups = {armor_torso=1, armor_heal=12, physics_gravity=-0.15, physics_speed=0.15, physics_jump=0.15, armor_use=150},
 	armor_groups = {fleshy=20},
 	damage_groups = {cracky=2, snappy=1, level=3},
 })
@@ -33,7 +33,7 @@ armor:register_armor("nyan_armor:chestplate_rainbow", {
 armor:register_armor("nyan_armor:leggings_rainbow", {
 	description = "Nyan Leggings",
 	inventory_image = "nyan_armor_inv_leggings_rainbow.png",
-	groups = {armor_legs=1, armor_heal=12, armor_use=100},
+	groups = {armor_legs=1, armor_heal=12, physics_gravity=-0.15, physics_speed=0.15, physics_jump=0.15, armor_use=150},
 	armor_groups = {fleshy=20},
 	damage_groups = {cracky=2, snappy=1, level=3},
 })
@@ -41,7 +41,7 @@ armor:register_armor("nyan_armor:leggings_rainbow", {
 armor:register_armor("nyan_armor:boots_rainbow", {
 	description = "Nyan Boots",
 	inventory_image = "nyan_armor_inv_boots_rainbow.png",
-	groups = {armor_feet=1, armor_heal=12, armor_use=100},
+	groups = {armor_feet=1, armor_heal=12, physics_gravity=-0.15, physics_speed=0.15, physics_jump=0.15, armor_use=150},
 	armor_groups = {fleshy=15},
 	damage_groups = {cracky=2, snappy=1, level=3},
 })
@@ -49,7 +49,7 @@ armor:register_armor("nyan_armor:boots_rainbow", {
 armor:register_armor("nyan_armor:shield_rainbow", {
 	description = "Nyan Shield",
 	inventory_image = "nyan_armor_inv_shield_rainbow.png",
-	groups = {armor_shield=1, armor_heal=12, armor_use=100},
+	groups = {armor_shield=1, armor_heal=12, physics_gravity=-0.15, physics_speed=0.15, physics_jump=0.15, armor_use=100},
 	armor_groups = {fleshy=15},
 	damage_groups = {cracky=2, snappy=1, level=3},
 	reciprocate_damage = true,
